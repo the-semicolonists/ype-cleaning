@@ -1,0 +1,22 @@
+[
+  {
+    "img": "/assets/img/icon1.png",
+    "title": "Inspect the Property",
+    "desc": "Check common areas, hallways, and units for cleaning needs."
+  },
+  {
+    "img": "/assets/img/icon2.png",
+    "title": "Plan Cleaning Tasks",
+    "desc": "Organize the cleaning schedule and assign tasks efficiently."
+  },
+  {
+    "img": "/assets/img/icon3.png",
+    "title": "Perform Cleaning",
+    "desc": "Deep clean floors, windows, and shared spaces thoroughly."
+  },
+  {
+    "img": "/assets/img/icon4.png",
+    "title": "Quality Check & Deliver",
+    "desc": "Ensure every area is spotless and leave the property ready."
+  }
+]

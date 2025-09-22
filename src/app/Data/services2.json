@@ -1,0 +1,42 @@
+[
+  {
+    "img": "/assets/img/service_img_4.jpg",
+    "icon": "/assets/img/icons/wheel.svg",
+    "title": "1. Lobby & Hallway Cleaning",
+    "desc": "Keep lobbies and hallways clean, polished, and welcoming for residents and visitors. Regular cleaning ensures a safe and hygienic environment for everyone.",
+    "btnText": "READ MORE",
+    "btnLink": "/service"
+  },
+  {
+    "img": "/assets/img/service_img_4.jpg",
+    "icon": "/assets/img/icons/wheel.svg",
+    "title": "2. Elevator & Stairwell Cleaning",
+    "desc": "Sanitize elevators and stairwells to maintain cleanliness and safety throughout the building. High-traffic areas are cleaned regularly for optimal hygiene.",
+    "btnText": "READ MORE",
+    "btnLink": "/service"
+  },
+  {
+    "img": "/assets/img/service_img_4.jpg",
+    "icon": "/assets/img/icons/wheel.svg",
+    "title": "3. Window & Glass Cleaning",
+    "desc": "Spotless windows and glass doors brighten common areas and improve the overall appearance of the building. Regular cleaning prevents dust and streak buildup.",
+    "btnText": "READ MORE",
+    "btnLink": "/service"
+  },
+  {
+    "img": "/assets/img/service_img_4.jpg",
+    "icon": "/assets/img/icons/wheel.svg",
+    "title": "4. Trash & Common Area Maintenance",
+    "desc": "Regular trash removal and upkeep of shared spaces keep the building hygienic and safe. Our team ensures all common areas are tidy and presentable daily.",
+    "btnText": "READ MORE",
+    "btnLink": "/service"
+  },
+  {
+    "img": "/assets/img/service_img_4.jpg",
+    "icon": "/assets/img/icons/wheel.svg",
+    "title": "5. Floor & Surface Cleaning",
+    "desc": "Thorough cleaning of floors, surfaces, and high-touch areas maintains a healthy environment. Polished floors and sanitized surfaces make a great impression.",
+    "btnText": "READ MORE",
+    "btnLink": "/service"
+  }
+]
