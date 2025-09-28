@@ -33,7 +33,7 @@ const ServiceDetails = () => {
               <Image src="/assets/img/service_banner.jpg" alt="img" width={854} height={378} />
               <h2>We give the best Services</h2>
               <p>
-                For your car repair services business, there are several key details to consider,
+                For your Cleaning services business, there are several key details to consider,
                 which can help define the services you offer, your target market, and how you want
                 to present your brand. Here’s a breakdown encourage current customers to refer any
                 friends by offering discounts on future services.
@@ -169,9 +169,7 @@ const ServiceDetails = () => {
               </div>
               <div className="cs_sidebar_widget cs_accent_bg">
                 <div className="cs_card cs_style_6">
-                  <h3 className="cs_fs_30 cs_white_color cs_mb_30">
-                    Emergency Car Repair Services
-                  </h3>
+                  <h3 className="cs_fs_30 cs_white_color cs_mb_30">Emergency Cleaning Services</h3>
                   <div className="cs_card_icon cs_center cs_mb_32">
                     <Image
                       src="/assets/img/icons/phone-call_2.svg"

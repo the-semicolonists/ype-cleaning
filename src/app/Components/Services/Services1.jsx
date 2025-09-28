@@ -50,15 +50,12 @@ const Services1 = () => {
       <div className="container">
         <div className="cs_section_heading cs_style_1 cs_type_1 cs_mb_50">
           <div className="cs_section_heading_left">
-            <SectionTitle
-              SubTitle="Our Services"
-              Title="Professional Apartment Building Cleaning"
-            />
+            <SectionTitle SubTitle="Our Services" Title="Commercial Cleaning & Porter Services" />
           </div>
           <div className="cs_section_heading_right mb-0 wow fadeInDown">
-            We provide thorough cleaning for lobbies, hallways, elevators, and common areas. Each
-            space is sanitized and maintained to ensure a safe, hygienic, and welcoming environment
-            for residents.
+            We provide dependable cleaning and porter solutions for commercial properties. From
+            restrooms and lobbies to high-touch areas, we ensure your business space remains
+            spotless, safe, and well-maintained throughout the day.
           </div>
         </div>
       </div>

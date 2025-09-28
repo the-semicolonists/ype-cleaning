@@ -18,13 +18,13 @@ const archivo = Archivo({
 export const metadata = {
   title: {
     absolute: '',
-    default: 'ype - Car Repair Services NextJS Template',
-    template: '%s | ype - Car Repair Services NextJS Template',
+    default: 'ype - Cleaning Services NextJS Template',
+    template: '%s | ype - Cleaning Services NextJS Template',
   },
-  description: 'ype - Car Repair Services NextJS Template',
+  description: 'ype - Cleaning Services NextJS Template',
   openGraph: {
-    title: 'ype - Car Repair Services NextJS Template',
-    description: 'ype - Car Repair Services NextJS Template',
+    title: 'ype - Cleaning Services NextJS Template',
+    description: 'ype - Cleaning Services NextJS Template',
     image: '/openGraphImage.jpg',
   },
 };

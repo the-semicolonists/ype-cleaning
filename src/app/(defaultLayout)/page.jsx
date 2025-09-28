@@ -25,14 +25,14 @@ const page = () => {
         expTitle="Experience"
         number="(208) 555-0112"
         subTitle="About Us"
-        Title="Professional Apartment Building Cleaning"
-        Content="We provide reliable cleaning services for apartment buildings, focusing on lobbies, hallways, elevators, and common areas. Our team ensures a clean, safe, and welcoming environment for all residents."
-        feature1="Lobby & Hallway Cleaning"
-        feature2="Elevator & Stairwell Cleaning"
+        Title="Trusted Cleaning & Porter Services"
+        Content="We deliver reliable, professional cleaning and porter services for commercial spaces. From lobbies and restrooms to high-traffic zones, our team ensures your property stays clean, safe, and presentable at all times."
+        feature1="Daily & Weekly Cleaning"
+        feature2="Day Porter Services"
         listItem={[
-          'Thorough cleaning of all common areas',
-          'Sanitized high-traffic spaces',
-          'Polished floors and spotless surfaces',
+          'Comprehensive commercial cleaning',
+          'Sanitized high-touch surfaces',
+          'Well-maintained public spaces',
         ]}
         avatar="/assets/img/avatar_1.png"
         name="Olivia Smith"
@@ -43,7 +43,7 @@ const page = () => {
 
       <Choose1
         img1="/assets/img/feature_img_1.jpg"
-        content="We specialize in maintaining apartment building hygiene. From elevators to common areas, every space is cleaned thoroughly and efficiently."
+        content="We specialize in cleaning and maintaining commercial properties. From entryways to restrooms, we ensure every space is spotless, stocked, and ready for business."
         btnName="Read more"
         btnUrl="/about"
         img2="/assets/img/feature_img_2.jpg"
@@ -64,9 +64,9 @@ const page = () => {
 
       <Contact1
         Title="Contact Information"
-        subTitle="Reach out to schedule cleaning services for your apartment building."
+        subTitle="Reach out to schedule commercial cleaning or porter services."
         address="2972 Westheimer Rd. <br/>Santa Ana, Illinois 5486"
-        email="info@cleanapts.com <br/>support@cleanapts.com"
+        email="info@cleanservice.com <br/>support@cleanservice.com"
         number="(402) 4521 5458 44 <br/> (123) 2154 5464 55"
         clientNumber="1012"
         img="/assets/img/contact_img_1.jpg"

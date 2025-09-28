@@ -8,31 +8,31 @@ const ProjectDetails = () => {
         <div className="cs_portfolio_details">
           <Image src="/assets/img/portfolio_banner.jpg" alt="img" width={1296} height={552} />
 
-          <h2>Our Work in Apartment Building Cleaning</h2>
+          <h2>Commercial Cleaning & Porter Services Project</h2>
           <p>
-            We provide professional apartment building cleaning services across California. Our team
-            ensures common areas, lobbies, hallways, elevators, and stairwells are spotless and
-            safe. We tailor each cleaning plan to your building’s needs, from daily maintenance to
-            deep cleaning sessions.
+            We deliver expert commercial cleaning and porter services throughout California. This
+            project showcases our daily maintenance and facility support for a multi-tenant office
+            complex. From lobbies and restrooms to elevators and outdoor spaces, our team ensures
+            everything is clean, safe, and presentable at all times.
           </p>
           <p>
-            Using eco-friendly products and modern equipment, we maintain high hygiene standards.
-            Our trained staff is reliable, insured, and committed to keeping your property in top
-            condition for residents and visitors alike.
+            Using eco-conscious products and modern tools, our staff maintains high standards of
+            hygiene and appearance. Each team member is fully trained, insured, and focused on
+            supporting building operations efficiently.
           </p>
 
           <div className="row cs_row_gap_30 cs_gap_y_40">
             <div className="col-xl-8 col-lg-7">
-              <h2>Your Trusted Apartment Cleaning Partner</h2>
+              <h2>Reliable Day Porter & Commercial Cleaning</h2>
               <p>
-                Scheduling is flexible to minimize disruption for residents. We offer one-time deep
-                cleaning, recurring maintenance, and specialized services like carpet cleaning,
-                window washing, and sanitization of shared facilities.
+                Services are tailored to the building’s needs and peak usage times. Our porters are
+                on-site during business hours to handle restocking, waste removal, spills, and other
+                on-demand tasks — while our cleaning crews manage detailed upkeep during off-hours.
               </p>
               <p>
-                Pricing is transparent and depends on building size and frequency. Free estimates
-                are provided, and our goal is always to deliver exceptional results efficiently and
-                safely.
+                We offer flexible service agreements, competitive rates, and responsive support.
+                Whether it’s a single office suite or a full commercial property, our goal is to
+                exceed expectations with every visit.
               </p>
 
               <ul className="cs_list cs_style_1 cs_fs_18 cs_semibold cs_heading_color cs_heading_font cs_mb_30 p-0">
@@ -40,25 +40,25 @@ const ProjectDetails = () => {
                   <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                     <i className="bi bi-check"></i>
                   </span>
-                  <span>Lobby & Hallway Cleaning</span>
+                  <span>Lobby & Common Area Cleaning</span>
                 </li>
                 <li>
                   <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                     <i className="bi bi-check"></i>
                   </span>
-                  <span>Elevator & Stairwell Sanitization</span>
+                  <span>Daily Day Porter Support</span>
                 </li>
                 <li>
                   <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                     <i className="bi bi-check"></i>
                   </span>
-                  <span>Window & Glass Cleaning</span>
+                  <span>Restroom & Breakroom Maintenance</span>
                 </li>
                 <li>
                   <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                     <i className="bi bi-check"></i>
                   </span>
-                  <span>Carpet & Floor Deep Cleaning</span>
+                  <span>Trash Removal & Sanitization</span>
                 </li>
               </ul>
 
@@ -66,7 +66,7 @@ const ProjectDetails = () => {
                 <div className="col-md-6">
                   <Image
                     src="/assets/img/portfolio_img_10.jpg"
-                    alt="img"
+                    alt="Commercial cleaning crew"
                     width={412}
                     height={226}
                   />
@@ -74,7 +74,7 @@ const ProjectDetails = () => {
                 <div className="col-md-6">
                   <Image
                     src="/assets/img/portfolio_img_11.jpg"
-                    alt="img"
+                    alt="Day porter on duty"
                     width={412}
                     height={226}
                   />
@@ -82,9 +82,9 @@ const ProjectDetails = () => {
               </div>
 
               <p>
-                Our apartment cleaning services are designed to maintain a clean, safe, and
-                welcoming environment. Regular maintenance and deep cleaning help extend the life of
-                surfaces and keep residents satisfied.
+                Our commercial cleaning services help extend the life of facilities, boost
+                cleanliness perception, and create a professional experience for tenants, employees,
+                and visitors alike.
               </p>
             </div>
 
@@ -94,18 +94,18 @@ const ProjectDetails = () => {
                   <ul className="cs_categories cs_mp_0">
                     <li>
                       <span className="cs_fs_18 cs_semibold cs_heading_color">Category:</span>
-                      <span>Apartment Cleaning Services</span>
+                      <span>Commercial Cleaning & Porter Services</span>
                     </li>
                     <li>
                       <span className="cs_fs_18 cs_semibold cs_heading_color">Client:</span>
-                      <span>California Residences</span>
+                      <span>Downtown Office Center</span>
                     </li>
                     <li>
                       <span className="cs_fs_18 cs_semibold cs_heading_color">Start Date:</span>
                       <span>01 March 2025</span>
                     </li>
                     <li>
-                      <span className="cs_fs_18 cs_semibold cs_heading_color">End Date:</span>
+                      <span className="cs_fs_18 cs_semibold cs_heading_color">Status:</span>
                       <span>Ongoing</span>
                     </li>
                   </ul>

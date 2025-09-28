@@ -46,7 +46,7 @@ export default function Header1({ variant }) {
                   </li>
                   <li>
                     <i className="bi bi-envelope-fill"></i>
-                    <a href="mailto:info@cleanaptscalifornia.com">info@cleanaptscalifornia.com</a>
+                    <a href="mailto:info@cleanporters.com">info@cleanporters.com</a>
                   </li>
                   <li>
                     <i className="bi bi-geo-alt-fill"></i>
@@ -88,7 +88,7 @@ export default function Header1({ variant }) {
                   <Link className="cs_site_branding" href="/">
                     <Image
                       src="/assets/img/logo.png"
-                      alt="Apartment Cleaning California"
+                      alt="Commercial Cleaning and Porter Services Logo"
                       width={225}
                       height={65}
                     />
@@ -107,7 +107,7 @@ export default function Header1({ variant }) {
                     </svg>
                     <Image
                       src="/assets/img/logo_shape_pattern.svg"
-                      alt="pattern"
+                      alt="Logo Shape Background Pattern"
                       width={412}
                       height={141}
                     />

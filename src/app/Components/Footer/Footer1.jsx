@@ -4,11 +4,11 @@ import Link from 'next/link';
 
 const FooterCleaning = () => {
   const exploreLinks = [
-    { title: 'Residential Cleaning', href: '/services/residential' },
     { title: 'Commercial Cleaning', href: '/services/commercial' },
-    { title: 'Move-In / Move-Out Cleaning', href: '/services/move-in-out' },
-    { title: 'Window Cleaning', href: '/services/window-cleaning' },
-    { title: 'Carpet & Upholstery', href: '/services/carpet-upholstery' },
+    { title: 'Day Porter Services', href: '/services/porter' },
+    { title: 'Floor & Surface Care', href: '/services/floor-care' },
+    { title: 'Window & Glass Cleaning', href: '/services/window-cleaning' },
+    { title: 'Disinfection Services', href: '/services/sanitization' },
   ];
 
   const workingHours = [
@@ -30,7 +30,7 @@ const FooterCleaning = () => {
           </div>
           <div className="cs_footer_newsletter_right">
             <h3 className="cs_fs_24 cs_semibold cs_white_color mb-0">
-              Subscribe for Cleaning Tips & Updates
+              Subscribe for Cleaning Tips & Industry Updates
             </h3>
             <form className="cs_footer_newsletter_form">
               <input type="text" placeholder="Enter Your Email" />
@@ -58,8 +58,9 @@ const FooterCleaning = () => {
                   <span className="cs_white_bg"></span>
                 </div>
                 <p>
-                  Professional apartment cleaning services dedicated to keeping your home sparkling
-                  clean. Reliable, eco-friendly, and trusted by residents across the city.
+                  We provide dependable commercial cleaning and porter services for offices, retail,
+                  and mixed-use facilities. Our mission is to maintain clean, safe, and professional
+                  spaces for businesses to thrive.
                 </p>
                 <div className="cs_social_btns cs_style_1">
                   {['facebook', 'twitter', 'instagram', 'linkedin'].map((icon) => (
@@ -71,7 +72,7 @@ const FooterCleaning = () => {
               </div>
             </div>
 
-            {/* Explore */}
+            {/* Services */}
             <div className="cs_footer_col">
               <div className="cs_footer_widget">
                 <h2 className="cs_footer_widget_title cs_fs_24 cs_semibold cs_white_color cs_mb_10">
@@ -105,7 +106,7 @@ const FooterCleaning = () => {
                 </div>
                 <ul className="cs_footer_contact_list cs_mp_0">
                   <li>
-                    <i className="bi bi-geo-alt-fill"></i> 123 Main St, Apartment City, USA
+                    <i className="bi bi-geo-alt-fill"></i> 123 Main St, Business District, USA
                   </li>
                   <li>
                     <i className="bi bi-telephone-fill"></i>
@@ -115,7 +116,7 @@ const FooterCleaning = () => {
                   </li>
                   <li>
                     <i className="bi bi-envelope-fill"></i>
-                    <a href="mailto:info@apartmentcleaners.com">info@apartmentcleaners.com</a>
+                    <a href="mailto:info@cleaningpros.com">info@cleaningpros.com</a>
                   </li>
                 </ul>
               </div>
@@ -150,9 +151,7 @@ const FooterCleaning = () => {
       <div className="cs_footer_bottom cs_white_color">
         <div className="container">
           <div className="cs_footer_bottom_in">
-            <div className="cs_footer_copyright">
-              © 2024 Apartment Cleaners. All Rights Reserved.
-            </div>
+            <div className="cs_footer_copyright">© 2024 Cleaning Pros. All Rights Reserved.</div>
             <div>
               <Image
                 src="/assets/img/payment_card.svg"

@@ -59,7 +59,7 @@ const Contact = () => {
             <div className="cs_social_desc">
               <h3 className="cs_fs_24 cs_semibold cs_mb_10">Follow The Social Media:</h3>
               <p className="cs_mb_22">
-                Algae can quickly take over a Car Repair if not addressed promptly. Learn effective.
+                Algae can quickly take over a Cleaning if not addressed promptly. Learn effective.
               </p>
               <div className="cs_social_btns cs_style_1">
                 <a href="#" className="cs_center cs_accent_bg_light">
