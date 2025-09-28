@@ -1,18 +1,22 @@
 [
   {
-    "title": "What Services Do You Offer?",
-    "desc": "We specialize in providing top-notch pool service and maintenance to ensure your pool remains asafe, clean, and inviting space for relaxation and recreation."
+    "title": "What types of cleaning services do you provide?",
+    "desc": "We offer daily porter services, janitorial cleaning, restroom sanitation, lobby maintenance, trash removal, floor care, window washing, and more — all tailored to your property's specific needs."
   },
   {
-    "title": "Do You Have Certified Technicians?",
-    "desc": "We specialize in providing top-notch pool service and maintenance to ensure your pool remains asafe, clean, and inviting space for relaxation and recreation."
+    "title": "Do you offer day porter staffing for buildings?",
+    "desc": "Yes, we provide uniformed day porters to maintain cleanliness and address issues in real-time. Tasks include trash pickup, restroom restocking, entryway cleaning, and general upkeep throughout the day."
   },
   {
-    "title": "Can You Provide a Customized Service Plan?",
-    "desc": "We specialize in providing top-notch pool service and maintenance to ensure your pool remains asafe, clean, and inviting space for relaxation and recreation."
+    "title": "Can you customize services based on our building’s needs?",
+    "desc": "Absolutely. We create customized cleaning plans based on your schedule, property size, traffic volume, and specific maintenance priorities."
   },
   {
-    "title": "What is Your Pricing Structure?",
-    "desc": "We specialize in providing top-notch pool service and maintenance to ensure your pool remains asafe, clean, and inviting space for relaxation and recreation."
+    "title": "How do you price your services?",
+    "desc": "Our pricing is based on service frequency, building size, and scope of work. We offer free on-site assessments and transparent quotes with no hidden fees."
+  },
+  {
+    "title": "Are your cleaners trained and insured?",
+    "desc": "Yes, all team members are fully trained, background-checked, and insured. We follow strict quality control and safety protocols on every job site."
   }
 ]

@@ -16,6 +16,7 @@ const ServiceDetails = () => {
       setOpenItemIndex(index);
     }
   };
+
   useEffect(() => {
     if (firstItemOpen) {
       setOpenItemIndex(0);
@@ -30,43 +31,68 @@ const ServiceDetails = () => {
         <div className="row cs_row_gap_30 cs_gap_y_60">
           <div className="col-xl-8 col-lg-7">
             <div className="cs_service_details">
-              <Image src="/assets/img/service_banner.jpg" alt="img" width={854} height={378} />
-              <h2>We give the best Services</h2>
+              <Image
+                src="/assets/img/service_banner.jpg"
+                alt="Commercial Cleaning and Porter Services Banner"
+                width={854}
+                height={378}
+              />
+              <h2>Professional Cleaning & Porter Services</h2>
               <p>
-                For your Cleaning services business, there are several key details to consider,
-                which can help define the services you offer, your target market, and how you want
-                to present your brand. Here’s a breakdown encourage current customers to refer any
-                friends by offering discounts on future services.
+                We specialize in providing high-quality commercial cleaning and porter services for
+                office buildings, apartment complexes, retail centers, and more. Our uniformed team
+                is trained, insured, and ready to maintain the cleanliness and functionality of your
+                property — inside and out.
               </p>
               <p>
-                Encourage satisfied customers to leave positive reviews on platforms like Google and
-                Yelp certified mechanics and kinds provide ongoing training to keep up with evolving
-                car technologies.
+                Whether you need day porters to handle daily upkeep or a full cleaning crew for
+                nightly janitorial service, we tailor our solutions to meet your property’s unique
+                needs and schedule. We focus on cleanliness, safety, and first impressions — because
+                how your property looks matters.
               </p>
+
               <div className="row">
                 <div className="col-md-6">
-                  <Image src="/assets/img/service_img_8.jpg" alt="img" width={415} height={198} />
+                  <Image
+                    src="/assets/img/service_img_8.jpg"
+                    alt="Day Porter Cleaning Restrooms"
+                    width={415}
+                    height={198}
+                  />
                 </div>
                 <div className="col-md-6">
-                  <Image src="/assets/img/service_img_9.jpg" alt="img" width={415} height={198} />
+                  <Image
+                    src="/assets/img/service_img_9.jpg"
+                    alt="Commercial Office Trash Pickup"
+                    width={415}
+                    height={198}
+                  />
                 </div>
               </div>
+
               <p>
-                Share repair tips, showcase completed projects, and engage with your audience on
-                platforms like Facebook, Instagram an and YouTube flyers, billboards, or local radio
-                to promote your services in the community Encourage current customers to refer
-                friends by offering discounts on future services team up with local businesses such
-                as car dealerships or insurance companies to generate referrals{' '}
+                Our porters handle tasks like trash removal, spill cleanup, restroom restocking,
+                lobby maintenance, and more — all while being polite and professional in
+                public-facing areas. We also provide flexible deep cleaning schedules including
+                carpet shampooing, window washing, floor buffing, and disinfection.
               </p>
-              <h2>Service Quality</h2>
+
+              <h2>Why Property Managers Choose Us</h2>
               <p>
-                Invest in high-quality diagnostic tools, lifts, and other essential repair equipment
-                certified mechanics and provide ongoing training to keep up with evolving car
-                technologies.
+                We understand the importance of reliability and consistency. Our crews show up on
+                time, follow detailed checklists, and report issues proactively. Our customer
+                service team is responsive and solutions-oriented, helping you maintain building
+                cleanliness without the headache.
               </p>
+
               <div className="row">
                 <div className="col-xl-6">
-                  <Image src="/assets/img/service_img_10.jpg" alt="img" width={415} height={184} />
+                  <Image
+                    src="/assets/img/service_img_10.jpg"
+                    alt="Lobby Cleaning Porter Team"
+                    width={415}
+                    height={184}
+                  />
                 </div>
                 <div className="col-xl-6">
                   <ul className="cs_list cs_style_1 cs_fs_18 cs_semibold cs_heading_font cs_mp_0">
@@ -74,31 +100,34 @@ const ServiceDetails = () => {
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i>
                       </span>
-                      <span>Where Your Ride Comes First</span>
+                      <span>Daily Porter & Janitorial Staffing</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i>
                       </span>
-                      <span>Engineered for Performance</span>
+                      <span>Lobby, Restroom & Common Area Cleaning</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i>
                       </span>
-                      <span>Precision Repairs, Guaranteed</span>
+                      <span>Disinfection & Odor Control</span>
                     </li>
                     <li>
                       <span className="cs_list_icon cs_center cs_accent_bg cs_white_color cs_radius_50">
                         <i className="bi bi-check"></i>
                       </span>
-                      <span>Get Back on the Road Faster</span>
+                      <span>Trash Collection & Exterior Sweeping</span>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
+
             <div className="cs_height_20 cs_height_lg_20"></div>
+
+            {/* FAQ Section */}
             <div className="cs_accordians_wrapper cs_style_1 p-0">
               {data.map((item, index) => (
                 <div
@@ -119,15 +148,18 @@ const ServiceDetails = () => {
               ))}
             </div>
           </div>
+
+          {/* Sidebar */}
           <aside className="col-xl-4 col-lg-5">
             <div className="cs_sidebar cs_style_1">
+              {/* Services List */}
               <div className="cs_sidebar_widget cs_accent_bg_light position-relative">
                 <div className="cs_separator"></div>
                 <h3 className="cs_sidebar_title cs_fs_30 cs_mb_43">All Services</h3>
                 <ul className="cs_categories cs_fs_18 cs_semibold cs_mp_0">
                   <li>
                     <Link href="/service/service-details">
-                      <span>Structural Mastery</span>
+                      <span>Commercial Cleaning</span>
                       <span>
                         <i className="bi bi-arrow-right"></i>
                       </span>
@@ -135,7 +167,7 @@ const ServiceDetails = () => {
                   </li>
                   <li>
                     <Link href="/service/service-details">
-                      <span>Foundation Forte</span>
+                      <span>Day Porter Staffing</span>
                       <span>
                         <i className="bi bi-arrow-right"></i>
                       </span>
@@ -143,7 +175,7 @@ const ServiceDetails = () => {
                   </li>
                   <li>
                     <Link href="/service/service-details">
-                      <span>Build Smart Solutions</span>
+                      <span>Office Janitorial Services</span>
                       <span>
                         <i className="bi bi-arrow-right"></i>
                       </span>
@@ -151,7 +183,7 @@ const ServiceDetails = () => {
                   </li>
                   <li>
                     <Link href="/service/service-details">
-                      <span>Precision Builds</span>
+                      <span>Restroom Sanitation</span>
                       <span>
                         <i className="bi bi-arrow-right"></i>
                       </span>
@@ -159,7 +191,7 @@ const ServiceDetails = () => {
                   </li>
                   <li>
                     <Link href="/service/service-details">
-                      <span>Apex Remodeling</span>
+                      <span>Post-Event Cleanups</span>
                       <span>
                         <i className="bi bi-arrow-right"></i>
                       </span>
@@ -167,30 +199,32 @@ const ServiceDetails = () => {
                   </li>
                 </ul>
               </div>
+
+              {/* Emergency Call Card */}
               <div className="cs_sidebar_widget cs_accent_bg">
                 <div className="cs_card cs_style_6">
                   <h3 className="cs_fs_30 cs_white_color cs_mb_30">Emergency Cleaning Services</h3>
                   <div className="cs_card_icon cs_center cs_mb_32">
                     <Image
                       src="/assets/img/icons/phone-call_2.svg"
-                      alt="img"
+                      alt="Emergency Cleaning Phone"
                       width={59}
                       height={49}
                     />
                   </div>
-                  <p className="cs_white_color cs_mb_5">Requesting A Call</p>
+                  <p className="cs_white_color cs_mb_5">Need urgent cleanup?</p>
                   <a
-                    href="tel:+111(564)56825"
+                    href="tel:+15551234567"
                     className="cs_call_text cs_fs_30 cs_bold cs_heading_font cs_mb_23"
                   >
-                    +111 (564) 568 25
+                    +1 (555) 123-4567
                   </a>
                   <p className="cs_card_subtitle cs_white_color cs_mb_33">
-                    Invest in high-quality diagnostic tools, lifts, and other essential repair
-                    equipment certified mechanics and provide
+                    Our emergency team is available for urgent disinfection, water cleanup, or
+                    after-hours porter services.
                   </p>
-                  <Link href="/about" className="cs_card_btn">
-                    <span>Read more</span>
+                  <Link href="/contact" className="cs_card_btn">
+                    <span>Contact Now</span>
                     <span>
                       <i className="bi bi-arrow-right"></i>
                     </span>

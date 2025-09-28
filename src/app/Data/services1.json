@@ -1,50 +1,50 @@
 [
   {
-    "img": "/assets/img/service_img_1.jpg",
+    "img": "/assets/img/service_img_1.webp",
     "icon": "/assets/img/icons/service_icon_1.svg",
     "title": "Lobby & Entryway Cleaning",
     "desc": "Ensure your commercial entrances and lobbies stay clean, polished, and presentable for clients and staff.",
     "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
+    "btnLink": "#"
   },
   {
-    "img": "/assets/img/service_img_2.jpg",
+    "img": "/assets/img/service_img_2.webp",
     "icon": "/assets/img/icons/service_icon_2.svg",
     "title": "Elevator & Stairwell Detailing",
     "desc": "Daily cleaning of high-traffic vertical spaces to maintain hygiene, safety, and a professional appearance.",
     "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
+    "btnLink": "#"
   },
   {
-    "img": "/assets/img/service_img_3.jpg",
+    "img": "/assets/img/service_img_3.webp",
     "icon": "/assets/img/icons/service_icon_3.svg",
     "title": "Window & Glass Cleaning",
     "desc": "Crystal-clear windows and glass surfaces that enhance natural light and leave a lasting impression.",
     "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
+    "btnLink": "#"
   },
   {
-    "img": "/assets/img/service_img_7.jpg",
+    "img": "/assets/img/service_img_7.webp",
     "icon": "/assets/img/icons/service_icon_4.svg",
     "title": "Trash Removal & Porter Services",
     "desc": "Ongoing trash pickup and day porter support to keep common areas clean, stocked, and operational.",
     "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
+    "btnLink": "#"
   },
   {
-    "img": "/assets/img/service_img_5.jpg",
+    "img": "/assets/img/service_img_5.webp",
     "icon": "/assets/img/icons/service_icon_5.svg",
     "title": "Floor Care & Surface Cleaning",
     "desc": "Expert floor maintenance and disinfection of high-touch surfaces for a healthier work environment.",
     "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
+    "btnLink": "#"
   },
   {
-    "img": "/assets/img/service_img_6.jpg",
+    "img": "/assets/img/service_img_6.webp",
     "icon": "/assets/img/icons/service_icon_6.svg",
     "title": "Commercial Sanitization",
     "desc": "Targeted sanitizing services to reduce germs and improve safety in offices, restrooms, and shared spaces.",
     "btnText": "READ MORE",
-    "btnLink": "/service/service-details"
+    "btnLink": "#"
   }
 ]

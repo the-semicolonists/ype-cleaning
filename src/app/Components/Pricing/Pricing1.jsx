@@ -13,11 +13,12 @@ const Pricing1 = () => {
         <div className="cs_section_heading cs_style_1 cs_type_1 cs_mb_47">
           <div className="cs_section_heading_left">
             <SectionTitle
-              SubTitle="our price plan"
-              Title="Choose The Right Plan Which You Need!"
-            ></SectionTitle>
+              SubTitle="Our Price Plans"
+              Title="Choose The Right Plan That Fits Your Property"
+            />
           </div>
         </div>
+
         <ul className="cs_tab_links cs_style_1 cs_type_1 cs_fs_18 cs_semibold cs_heading_color cs_heading_font cs_mp_0 wow fadeInUp">
           <li
             className={`${isActive === 'monthly' ? 'active' : ''}`}
@@ -32,137 +33,145 @@ const Pricing1 = () => {
             <a>Yearly</a>
           </li>
         </ul>
+
         <div className="cs_tab_body">
+          {/* Monthly Plans */}
           <div className={`cs_tab ${isActive === 'monthly' ? 'active' : ''}`}>
             <div className="row cs_row_gap_30 cs_gap_y_30 justify-content-center">
+              {/* Basic Monthly */}
               <div className="col-lg-4">
                 <div className="cs_pricing_table cs_style_1">
                   <PricingCard
-                    price="$100"
-                    planName="Emergency Plan"
-                    title="Basic Plan"
-                    subTitle="Exclusive for Small"
+                    price="$500"
+                    planName="Monthly Plan"
+                    title="Basic Cleaning"
+                    subTitle="Ideal for Small Buildings"
                     featureList={[
-                      'Rims & Tire Change',
-                      'Light Carpet Clean',
-                      'Wipe all Surfaces',
-                      'Wipe all Surfaces',
-                      'Interior Cleaning',
-                      'Water proofing',
+                      'Lobby & Entryway Cleaning',
+                      'Trash Removal (3x/week)',
+                      'Light Dusting & Surface Wipe',
+                      'Restroom Check & Refill',
+                      'Emergency Spill Response',
                     ]}
                     btnName="Choose Plan"
                     btnUrl="/contact"
-                  ></PricingCard>
-                </div>
-              </div>
-              <div className="col-lg-4 ">
-                <div className="cs_pricing_table cs_style_1 active">
-                  <PricingCard
-                    price="$160"
-                    planName="Emergency Plan"
-                    title="Stander Plan"
-                    subTitle="Exclusive for Small"
-                    featureList={[
-                      'Rims & Tire Change',
-                      'Light Carpet Clean',
-                      'Wipe all Surfaces',
-                      'Wipe all Surfaces',
-                      'Interior Cleaning',
-                      'Water proofing',
-                    ]}
-                    btnName="Choose Plan"
-                    btnUrl="/contact"
-                  ></PricingCard>
+                  />
                 </div>
               </div>
 
+              {/* Standard Monthly */}
               <div className="col-lg-4">
-                <div className="cs_pricing_table cs_style_1">
+                <div className="cs_pricing_table cs_style_1 active">
                   <PricingCard
-                    price="$200"
-                    planName="Emergency Plan"
-                    title="Premium plan"
-                    subTitle="Exclusive for Small"
+                    price="$850"
+                    planName="Monthly Plan"
+                    title="Standard Cleaning"
+                    subTitle="For Medium-Sized Properties"
                     featureList={[
-                      'Rims & Tire Change',
-                      'Light Carpet Clean',
-                      'Wipe all Surfaces',
-                      'Wipe all Surfaces',
-                      'Interior Cleaning',
-                      'Water proofing',
+                      'Daily Porter Services',
+                      'Restroom Sanitation (Daily)',
+                      'Common Area Maintenance',
+                      'Trash & Recycling',
+                      'Light Window & Floor Care',
                     ]}
                     btnName="Choose Plan"
                     btnUrl="/contact"
-                  ></PricingCard>
+                  />
+                </div>
+              </div>
+
+              {/* Premium Monthly */}
+              <div className="col-lg-4">
+                <div className="cs_pricing_table cs_style_1">
+                  <PricingCard
+                    price="$1,200"
+                    planName="Monthly Plan"
+                    title="Premium Cleaning"
+                    subTitle="Full-Service, Large Buildings"
+                    featureList={[
+                      'Full-Time Day Porter',
+                      'Lobby, Hallways, Restrooms',
+                      'Power Washing & Deep Floor Care',
+                      'Interior Window Cleaning',
+                      'Custom Schedules & Reports',
+                    ]}
+                    btnName="Choose Plan"
+                    btnUrl="/contact"
+                  />
                 </div>
               </div>
             </div>
           </div>
+
+          {/* Yearly Plans */}
           <div className={`cs_tab ${isActive === 'yearly' ? 'active' : ''}`}>
             <div className="row cs_row_gap_30 cs_gap_y_30 justify-content-center">
+              {/* Basic Yearly */}
               <div className="col-lg-4">
                 <div className="cs_pricing_table cs_style_1">
                   <PricingCard
-                    price="$350"
-                    planName="Emergency Plan"
-                    title="Basic Plan"
-                    subTitle="Exclusive for Small"
+                    price="$5,000"
+                    planName="Annual Plan"
+                    title="Basic Cleaning"
+                    subTitle="Ideal for Small Buildings"
                     featureList={[
-                      'Rims & Tire Change',
-                      'Light Carpet Clean',
-                      'Wipe all Surfaces',
-                      'Wipe all Surfaces',
-                      'Interior Cleaning',
-                      'Water proofing',
+                      'Lobby & Entryway Cleaning',
+                      'Trash Removal (3x/week)',
+                      'Light Dusting & Surface Wipe',
+                      'Restroom Check & Refill',
+                      'Emergency Spill Response',
                     ]}
                     btnName="Choose Plan"
                     btnUrl="/contact"
-                  ></PricingCard>
+                  />
                 </div>
               </div>
+
+              {/* Standard Yearly */}
               <div className="col-lg-4">
                 <div className="cs_pricing_table cs_style_1 active">
                   <PricingCard
-                    price="$500"
-                    planName="Emergency Plan"
-                    title="Stander Plan"
-                    subTitle="Exclusive for Small"
+                    price="$8,800"
+                    planName="Annual Plan"
+                    title="Standard Cleaning"
+                    subTitle="For Medium-Sized Properties"
                     featureList={[
-                      'Rims & Tire Change',
-                      'Light Carpet Clean',
-                      'Wipe all Surfaces',
-                      'Wipe all Surfaces',
-                      'Interior Cleaning',
-                      'Water proofing',
+                      'Daily Porter Services',
+                      'Restroom Sanitation (Daily)',
+                      'Common Area Maintenance',
+                      'Trash & Recycling',
+                      'Light Window & Floor Care',
                     ]}
                     btnName="Choose Plan"
                     btnUrl="/contact"
-                  ></PricingCard>
+                  />
                 </div>
               </div>
+
+              {/* Premium Yearly */}
               <div className="col-lg-4">
                 <div className="cs_pricing_table cs_style_1">
                   <PricingCard
-                    price="$650"
-                    planName="Emergency Plan"
-                    title="Premium plan"
-                    subTitle="Exclusive for Small"
+                    price="$12,500"
+                    planName="Annual Plan"
+                    title="Premium Cleaning"
+                    subTitle="Full-Service, Large Buildings"
                     featureList={[
-                      'Rims & Tire Change',
-                      'Light Carpet Clean',
-                      'Wipe all Surfaces',
-                      'Wipe all Surfaces',
-                      'Interior Cleaning',
-                      'Water proofing',
+                      'Full-Time Day Porter',
+                      'Lobby, Hallways, Restrooms',
+                      'Power Washing & Deep Floor Care',
+                      'Interior Window Cleaning',
+                      'Custom Schedules & Reports',
                     ]}
                     btnName="Choose Plan"
                     btnUrl="/contact"
-                  ></PricingCard>
+                  />
                 </div>
               </div>
             </div>
           </div>
         </div>
+
         <div className="cs_height_120 cs_height_lg_80"></div>
       </div>
     </section>

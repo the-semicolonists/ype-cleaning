@@ -1,16 +1,16 @@
 [
   {
-    "img": "/assets/img/icons/car.svg",
+    "img": "/assets/img/icons/service_icon_1.svg",
     "title": "Clean & Safe Lobbies",
     "desc": "Keep lobbies spotless and welcoming for residents."
   },
   {
-    "img": "/assets/img/icons/engine.svg",
+    "img": "/assets/img/icons/service_icon_2.svg",
     "title": "Elevator & Stairwell Care",
     "desc": "Daily cleaning for safe and hygienic high-traffic areas."
   },
   {
-    "img": "/assets/img/icons/gear_icon_2.svg",
+    "img": "/assets/img/icons/service_icon_3.svg",
     "title": "Windows & Glass Cleaning",
     "desc": "Bright, streak-free windows and glass surfaces."
   }

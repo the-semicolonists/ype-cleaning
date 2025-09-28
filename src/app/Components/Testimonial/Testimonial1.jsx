@@ -101,9 +101,9 @@ const Testimonial1 = ({ subtitle, title, bgImg }) => {
                   <div className="cs_testimonial cs_style_1 position-relative">
                     <div className="cs_testimonial_content cs_white_bg position-relative">
                       <div className="cs_testimonial_header cs_mb_35">
-                        <div className="cs_testimonial_thumbnail">
+                        {/* <div className="cs_testimonial_thumbnail">
                           <Image src={item.img1} alt="img" width={90} height={91} />
-                        </div>
+                        </div> */}
                         <div className="cs_testimonial_info">
                           <div className="rating-area">
                             <i className="bi bi-star-fill"></i>

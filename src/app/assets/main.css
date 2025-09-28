@@ -1668,6 +1668,11 @@ textarea {
   color: var(--white-color);
 }
 
+.cs_section_title.cs_white_color,
+.cs_section_subtitle.cs_white_color {
+  text-shadow: 2px 2px 3px rgba(0, 90, 70, 0.95);
+}
+
 .cs_heading_color {
   color: var(--heading-color);
 }

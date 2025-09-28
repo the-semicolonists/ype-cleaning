@@ -17,9 +17,9 @@ const page = () => {
       <HeroBanner1></HeroBanner1>
 
       <About1
-        img1="/assets/img/about_img_1.jpg"
-        img2="/assets/img/about_img_2.jpg"
-        img3="/assets/img/about_img_3.jpg"
+        img1="/assets/img/about_img_1.webp"
+        img2="/assets/img/about_img_2.webp"
+        img3="/assets/img/about_img_3.webp"
         expNumber="20"
         expYers="Years"
         expTitle="Experience"
@@ -42,12 +42,12 @@ const page = () => {
       <Services1></Services1>
 
       <Choose1
-        img1="/assets/img/feature_img_1.jpg"
+        img1="/assets/img/feature_img_1.webp"
         content="We specialize in cleaning and maintaining commercial properties. From entryways to restrooms, we ensure every space is spotless, stocked, and ready for business."
         btnName="Read more"
         btnUrl="/about"
-        img2="/assets/img/feature_img_2.jpg"
-        img3="/assets/img/feature_img_3.jpg"
+        img2="/assets/img/feature_img_2.webp"
+        img3="/assets/img/feature_img_3.webp"
       ></Choose1>
 
       {/* <BeforeAfter
@@ -69,7 +69,7 @@ const page = () => {
         email="info@cleanservice.com <br/>support@cleanservice.com"
         number="(402) 4521 5458 44 <br/> (123) 2154 5464 55"
         clientNumber="1012"
-        img="/assets/img/contact_img_1.jpg"
+        img="/assets/img/about_img_1.webp"
         client="Happy Clients"
         subtitle2="Contact us"
         title2="Book an Appointment"
@@ -78,7 +78,7 @@ const page = () => {
       <Testimonial1
         subtitle="Testimonials"
         title="What Our Clients Say <br> About Us"
-        bgImg="/assets/img/testimonial_bg_1.jpg"
+        bgImg="/assets/img/testimonial_bg_1.webp"
       ></Testimonial1>
 
       {/* <Pricing1></Pricing1> */}

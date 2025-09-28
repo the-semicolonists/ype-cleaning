@@ -26,7 +26,7 @@ const Choose1 = ({ img1, content, btnName, btnUrl, img2, img3 }) => {
             <p className="cs_feature_text cs_mb_30">{content}</p>
             {data.map((item, i) => (
               <div key={i} className="cs_iconbox cs_style_2 cs_mb-12">
-                <div className="cs_iconbox_icon cs_gray_bg cs_center cs_radius_50">
+                <div className="cs_iconbox_icon cs_accent_bg cs_center cs_radius_50">
                   <Image src={item.img} alt="img" width={40} height={40} />
                 </div>
                 <div className="cs_iconbox_info">
