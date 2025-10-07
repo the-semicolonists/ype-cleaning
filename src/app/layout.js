@@ -18,13 +18,13 @@ const archivo = Archivo({
 export const metadata = {
   title: {
     absolute: '',
-    default: 'ype - Cleaning Services NextJS Template',
-    template: '%s | ype - Cleaning Services NextJS Template',
+    default: 'ype - Cleaning Services',
+    template: '%s | ype - Cleaning Services',
   },
-  description: 'ype - Cleaning Services NextJS Template',
+  description: 'ype - Cleaning Services',
   openGraph: {
-    title: 'ype - Cleaning Services NextJS Template',
-    description: 'ype - Cleaning Services NextJS Template',
+    title: 'ype - Cleaning Services',
+    description: 'ype - Cleaning Services',
     image: '/openGraphImage.jpg',
   },
 };
