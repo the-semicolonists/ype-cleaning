@@ -40,13 +40,13 @@ export default function Nav({ setMobileToggle }) {
         <DropDown>
           <ul>
             <li>
-              <Link href="/project" onClick={() => setMobileToggle(false)}>
-                Industry 1
+              <Link href="/project/schools" onClick={() => setMobileToggle(false)}>
+                Schools & Universities
               </Link>
             </li>
             <li>
-              <Link href="/project/project-details" onClick={() => setMobileToggle(false)}>
-                Industry 2
+              <Link href="/project/property-management" onClick={() => setMobileToggle(false)}>
+                Property Management
               </Link>
             </li>
           </ul>

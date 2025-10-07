@@ -42,7 +42,7 @@ export default function Header1({ variant }) {
                 <ul className="cs_header_contact_list cs_mp_0">
                   <li>
                     <i className="bi bi-telephone-fill"></i>
-                    <a href="tel:+1-555-123-4567">+1 (555) 123-4567</a>
+                    <a href="tel:+14246009155">+1 (424) 600-9155</a>
                   </li>
                   <li>
                     <i className="bi bi-envelope-fill"></i>

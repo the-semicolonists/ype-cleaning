@@ -5,7 +5,7 @@ import React from 'react';
 const page = () => {
   return (
     <div>
-      <BreadCumb bgImg="/assets/img/page_heading_1.jpg" Title="Team"></BreadCumb>
+      <BreadCumb bgImg="/assets/img/page_heading_1.webp" Title="Team"></BreadCumb>
       <Team2></Team2>
     </div>
   );

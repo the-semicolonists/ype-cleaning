@@ -52,7 +52,10 @@ const HeroBanner1 = () => {
                           <span className="cs_hero_number_icon cs_center cs_heading_bg cs_white_color cs_fs_18">
                             <i className="bi bi-telephone-x-fill"></i>
                           </span>
-                          <a className="cs_fs_24 cs_semibold cs_heading_color_light">
+                          <a
+                            className="cs_fs_24 cs_semibold cs_heading_color_light"
+                            href={`tel:+1${item.number.replace(/[^0-9]/g, '')}`}
+                          >
                             {item.number}
                           </a>
                         </span>

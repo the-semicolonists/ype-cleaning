@@ -23,7 +23,7 @@ const Services3 = () => {
                     {item.title}
                   </h3>
                   <p className="cs_card_subtitle cs_mb_18">{item.desc}</p>
-                  {/* <Link
+                  <Link
                     href={item.btnLink}
                     className="cs_text_btn cs_style_1 cs_bold cs_heading_color"
                   >
@@ -32,7 +32,7 @@ const Services3 = () => {
                       <i className="bi bi-arrow-right"></i>
                       <i className="bi bi-arrow-right"></i>
                     </span>
-                  </Link> */}
+                  </Link>
                 </div>
               </div>
             </div>

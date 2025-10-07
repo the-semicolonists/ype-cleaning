@@ -13,8 +13,7 @@ const FooterCleaning = () => {
 
   const workingHours = [
     { day: 'Mon - Fri', time: '8:00 AM - 6:00 PM' },
-    { day: 'Saturday', time: '9:00 AM - 4:00 PM' },
-    { day: 'Sunday', time: 'Closed' },
+    { day: 'Sat - Sun', time: '9:00 AM - 4:00 PM' },
   ];
 
   return (
@@ -106,17 +105,15 @@ const FooterCleaning = () => {
                 </div>
                 <ul className="cs_footer_contact_list cs_mp_0">
                   <li>
-                    <i className="bi bi-geo-alt-fill"></i> 123 Main St, Business District, USA
+                    <i className="bi bi-geo-alt-fill"></i> 5419 Hollywood Blvd Los Angeles, CA 90027
                   </li>
                   <li>
                     <i className="bi bi-telephone-fill"></i>
-                    <a href="tel:+1234567890">+1 234-567-890</a>
-                    <br />
-                    <a href="tel:+1234567891">+1 234-567-891</a>
+                    <a href="tel:+14246009155">+1 424-600-9155</a>
                   </li>
                   <li>
                     <i className="bi bi-envelope-fill"></i>
-                    <a href="mailto:info@cleaningpros.com">info@cleaningpros.com</a>
+                    <a href="mailto:info@cleaningpros.com">info@ypejanitorial.com</a>
                   </li>
                 </ul>
               </div>

@@ -23,7 +23,7 @@ const page = () => {
         expNumber="20"
         expYers="Years"
         expTitle="Experience"
-        number="(208) 555-0112"
+        number="(424) 600-9155"
         subTitle="About Us"
         Title="Trusted Cleaning & Porter Services"
         Content="We deliver reliable, professional cleaning and porter services for commercial spaces. From lobbies and restrooms to high-traffic zones, our team ensures your property stays clean, safe, and presentable at all times."

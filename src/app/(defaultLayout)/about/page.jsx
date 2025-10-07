@@ -9,7 +9,7 @@ import React from 'react';
 const page = () => {
   return (
     <div>
-      <BreadCumb bgImg="/assets/img/page_heading_1.jpg" Title="About Us"></BreadCumb>
+      <BreadCumb bgImg="/assets/img/page_heading_1.webp" Title="About Us"></BreadCumb>
       <About1
         img1="/assets/img/about_img_1.jpg"
         img2="/assets/img/about_img_2.jpg"
@@ -17,7 +17,7 @@ const page = () => {
         expNumber="58"
         expYers="Years"
         expTitle="Experience"
-        number="(208) 555-0112"
+        number="(424) 600-9155"
         subTitle="Our About"
         Title="Speedy Repairs Quality Results"
         Content="We are professional and committed to service is a statement that highlights the companys professionalism and dedication to providing"

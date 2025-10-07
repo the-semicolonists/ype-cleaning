@@ -1677,6 +1677,10 @@ textarea {
   color: var(--heading-color);
 }
 
+.cs_heading_color_shadow {
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.95);
+}
+
 .cs_heading_color_light {
   color: #fff;
 }
@@ -1974,16 +1978,16 @@ textarea {
   font-size: 18px;
   line-height: 1.6em;
   font-weight: 600;
-  color: var(--white-color);
+  /* color: var(--white-color); */
 }
-.cs_page_heading .breadcrumb-item.active {
+/* .cs_page_heading .breadcrumb-item.active {
   color: var(--white-color);
-}
+} */
 .cs_page_heading .breadcrumb-item + .breadcrumb-item::before {
   content: '\F280';
   font-family: bootstrap-icons !important;
   font-weight: 700;
-  color: var(--white-color);
+  /* color: var(--white-color); */
   font-size: 14px;
 }
 

@@ -14,7 +14,9 @@ const BreadCumb = ({ bgImg, Title }) => {
       data-background={bgImg}
     >
       <div className="container">
-        <h1 className="cs_white_color cs_semibold cs_white_color cs_mb_10 cs_fs_50">{Title}</h1>
+        <h1 className="cs_heading_color cs_heading_color_shadow cs_semibold cs_mb_10 cs_fs_50">
+          {Title}
+        </h1>
         <ol className="breadcrumb cs_heading_font">
           <li className="breadcrumb-item">
             <Link href="/">Home</Link>

@@ -8,7 +8,7 @@ import React from 'react';
 const page = () => {
   return (
     <div>
-      <BreadCumb bgImg="/assets/img/page_heading_1.jpg" Title="Cleaning Services"></BreadCumb>
+      <BreadCumb bgImg="/assets/img/page_heading_1.webp" Title="Cleaning Services"></BreadCumb>
       <Services3></Services3>
       <Video1></Video1>
       <Form2></Form2>
