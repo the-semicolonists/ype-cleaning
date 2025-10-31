@@ -27,11 +27,11 @@ const Form1 = () => {
       </div>
       <div className="col-sm-6 position-relative">
         <select className="form-select cs_form_field cs_radius_5">
-          <option value="car-Choose">Choose an option</option>
-          <option value="car-service">Car Service</option>
-          <option value="car-wash">Car Wash</option>
-          <option value="engine-oil">Engine Oil</option>
-          <option value="motor-service">Motor Cycle</option>
+          <option value="cleaning-choose">Choose an option</option>
+          <option value="home-cleaning">Home Cleaning</option>
+          <option value="office-cleaning">Office Cleaning</option>
+          <option value="carpet-cleaning">Carpet Cleaning</option>
+          <option value="window-cleaning">Window Cleaning</option>
         </select>
       </div>
       <div className="col-12">

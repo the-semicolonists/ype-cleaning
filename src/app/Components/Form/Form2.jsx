@@ -16,10 +16,10 @@ const Form2 = () => {
               <div className="cs_form_field_wrapper position-relative">
                 <select className="form-select cs_form_field">
                   <option value="service">Services Name</option>
-                  <option value="car-service">Car Service</option>
-                  <option value="car-wash">Car Wash</option>
-                  <option value="engine-oil">Engine Oil</option>
-                  <option value="motor-service">Motor Cycle</option>
+                  <option value="home-cleaning">Home Cleaning</option>
+                  <option value="office-cleaning">Office Cleaning</option>
+                  <option value="carpet-cleaning">Carpet Cleaning</option>
+                  <option value="window-cleaning">Window Cleaning</option>
                 </select>
                 <span className="cs_input_icon cs_white_color position-absolute">
                   <i className="bi bi-chevron-down"></i>
