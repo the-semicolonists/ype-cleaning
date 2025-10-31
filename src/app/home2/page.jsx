@@ -3,7 +3,7 @@ import HeroBanner2 from '../Components/HeroBanner/HeroBanner2';
 import About2 from '../Components/About/About2';
 import Services2 from '../Components/Services/Services2';
 import Faq1 from '../Components/Faq/Faq1';
-import Video1 from '../Components/Video/Video1';
+// import Video1 from '../Components/Video/Video1';
 import Form2 from '../Components/Form/Form2';
 import Team1 from '../Components/Team/Team1';
 import Testimonial2 from '../Components/Testimonial/Testimonial2';
@@ -21,7 +21,7 @@ const page = () => {
         title="Clean, Safe, and Inviting Buildings"
         conetnt="We provide fast and reliable cleaning for lobbies, hallways, elevators, and common areas to keep your building spotless."
         btnname="Get a Quote"
-        btnurl="/about"
+        btnurl="/service"
         videoname="See Us in Action"
       ></HeroBanner2>
 
@@ -39,13 +39,13 @@ const page = () => {
         box2="Elevators & Stairwells"
         boxContent2="Sanitized and spotless elevators and stairwells every day."
         avatar="/assets/img/avatar_1.png"
-        name="Olivia Smith"
+        name="Keith Landmark"
         designation="Founder & CEO"
       ></About2>
 
       <Services2></Services2>
       <Faq1></Faq1>
-      <Video1></Video1>
+      {/* <Video1></Video1> */}
       <Form2></Form2>
       <Team1></Team1>
       <Testimonial2></Testimonial2>

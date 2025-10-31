@@ -102,14 +102,14 @@ const About1 = ({
                 ))}
               </ul>
               <div className="cs_about_btns">
-                <Link href="/about" className="cs_btn cs_style_1 wow fadeInLeft">
+                <Link href="/service" className="cs_btn cs_style_1 wow fadeInLeft">
                   <span>Read more</span>
                   <i className="bi bi-arrow-right"></i>
                 </Link>
                 <div className="cs_avatar cs_style_1 wow fadeInRight">
-                  <div className="cs_avatar_thumbnail cs_center cs_radius_50">
+                  {/* <div className="cs_avatar_thumbnail cs_center cs_radius_50">
                     <Image src={avatar} alt="img" width={48} height={48} />
-                  </div>
+                  </div> */}
                   <div className="cs_avatar_info">
                     <h3 className="cs_heading_color cs_fs_18 cs_semibold mb-0">{name}</h3>
                     <p className="cs_fs_14 mb-0">{designation}</p>

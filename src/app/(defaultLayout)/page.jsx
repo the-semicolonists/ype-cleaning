@@ -16,6 +16,7 @@ const page = () => {
     <div>
       <HeroBanner1></HeroBanner1>
 
+      <div id="about"></div>
       <About1
         img1="/assets/img/about_img_1.webp"
         img2="/assets/img/about_img_2.webp"
@@ -35,7 +36,7 @@ const page = () => {
           'Well-maintained public spaces',
         ]}
         avatar="/assets/img/avatar_1.png"
-        name="Olivia Smith"
+        name="Keith Landmark"
         designation="Founder & CEO"
       ></About1>
 
@@ -45,7 +46,7 @@ const page = () => {
         img1="/assets/img/feature_img_1.webp"
         content="We specialize in cleaning and maintaining commercial properties. From entryways to restrooms, we ensure every space is spotless, stocked, and ready for business."
         btnName="Read more"
-        btnUrl="/about"
+        btnUrl="/service"
         img2="/assets/img/feature_img_2.webp"
         img3="/assets/img/feature_img_3.webp"
       ></Choose1>
@@ -65,7 +66,7 @@ const page = () => {
       <Contact1
         Title="Contact Information"
         subTitle="Reach out to schedule commercial cleaning or porter services."
-        address="2972 Westheimer Rd. <br/>Santa Ana, Illinois 5486"
+        address="5419 Hollywood Blvd <br/>Los Angeles, CA 90027"
         email="info@ypejanitorialservices.com"
         number="14246009155"
         clientNumber="1012"

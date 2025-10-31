@@ -4,7 +4,7 @@
     "title": "Expert Cleaning & Porter Services",
     "desc": "We deliver consistent, high-quality cleaning and porter services for commercial properties. Your spaces stay spotless, safe, and welcoming—every day.",
     "btnName": "Read more",
-    "btnUrl": "/about",
+    "btnUrl": "#about",
     "number": "(424) 600-9155"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Clean, Maintained, and Ready for Business",
     "desc": "From lobby upkeep to restroom cleaning, our team keeps your facility looking professional and running smoothly, no matter the size or foot traffic.",
     "btnName": "Read more",
-    "btnUrl": "/about",
+    "btnUrl": "#about",
     "number": "(424) 600-9155"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Day Porter Support You Can Count On",
     "desc": "Our porters handle on-site tasks like trash removal, surface cleaning, and restocking supplies—keeping your property clean and functional throughout the day.",
     "btnName": "Read more",
-    "btnUrl": "/about",
+    "btnUrl": "#about",
     "number": "(424) 600-9155"
   }
 ]
