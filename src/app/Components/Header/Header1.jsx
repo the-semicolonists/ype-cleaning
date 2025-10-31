@@ -46,7 +46,9 @@ export default function Header1({ variant }) {
                   </li>
                   <li>
                     <i className="bi bi-envelope-fill"></i>
-                    <a href="mailto:info@cleanporters.com">info@cleanporters.com</a>
+                    <a href="mailto:info@ypejanitorialservices.com">
+                      info@ypejanitorialservices.com
+                    </a>
                   </li>
                   <li>
                     <i className="bi bi-geo-alt-fill"></i>

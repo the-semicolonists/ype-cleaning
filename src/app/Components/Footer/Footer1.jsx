@@ -113,7 +113,9 @@ const FooterCleaning = () => {
                   </li>
                   <li>
                     <i className="bi bi-envelope-fill"></i>
-                    <a href="mailto:info@cleaningpros.com">info@ypejanitorial.com</a>
+                    <a href="mailto:info@ypejanitorialservices.com">
+                      info@ypejanitorialservices.com
+                    </a>
                   </li>
                 </ul>
               </div>

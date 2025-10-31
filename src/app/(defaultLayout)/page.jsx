@@ -66,7 +66,7 @@ const page = () => {
         Title="Contact Information"
         subTitle="Reach out to schedule commercial cleaning or porter services."
         address="2972 Westheimer Rd. <br/>Santa Ana, Illinois 5486"
-        email="info@cleanservice.com <br/>support@cleanservice.com"
+        email="info@ypejanitorialservices.com"
         number="(402) 4521 5458 44 <br/> (123) 2154 5464 55"
         clientNumber="1012"
         img="/assets/img/about_img_1.webp"

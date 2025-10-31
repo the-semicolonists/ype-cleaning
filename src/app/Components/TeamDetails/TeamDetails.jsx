@@ -37,10 +37,10 @@ const TeamDetails = () => {
                   <div className="cs_iconbox_info">
                     <p className="cs_fs_14 mb-0">Email Address</p>
                     <a
-                      href="mailTo:info@gmail.com"
+                      href="mailTo:info@ypejanitorialservices.com"
                       className="cs_fs_18 cs_semibold cs_heading_color cs_heading_font"
                     >
-                      info@gmail.com
+                      info@ypejanitorialservices.com
                     </a>
                   </div>
                 </div>
