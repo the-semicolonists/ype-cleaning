@@ -50,7 +50,7 @@ const Contact1 = ({
                     />
                   </div>
                   <div className="cs_iconbox_info">
-                    <a>{parse(number)}</a>
+                    <a href={`tel:+${number}`}>{parse(number)}</a>
                   </div>
                 </div>
               </div>
