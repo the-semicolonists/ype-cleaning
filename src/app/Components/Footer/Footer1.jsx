@@ -150,7 +150,9 @@ const FooterCleaning = () => {
       <div className="cs_footer_bottom cs_white_color">
         <div className="container">
           <div className="cs_footer_bottom_in">
-            <div className="cs_footer_copyright">© 2024 YPE Janitorial Services. All Rights Reserved.</div>
+            <div className="cs_footer_copyright">
+              © 2024 YPE Janitorial Services. All Rights Reserved.
+            </div>
             <div>
               <Image
                 src="/assets/img/payment_card.svg"
